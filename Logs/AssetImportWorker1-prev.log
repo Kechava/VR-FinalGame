@@ -139,3 +139,35 @@ System memory in use after: 76.7 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3542.
 Total: 6.856200 ms (FindLiveObjects: 0.904400 ms CreateObjectMapping: 0.250500 ms MarkObjects: 5.658000 ms  DeleteObjects: 0.040600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.202343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kendr\OneDrive\Desktop\SpecialTopicsHws\VR-BowlingGame\UnityVRBowlingFolder\BowlingGameU\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kendr\OneDrive\Desktop\SpecialTopicsHws\VR-BowlingGame\UnityVRBowlingFolder\BowlingGameU\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/kendr/OneDrive/Desktop/SpecialTopicsHws/VR-BowlingGame/UnityVRBowlingFolder/BowlingGameU/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.686 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 2966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3546.
+Total: 4.684100 ms (FindLiveObjects: 0.553900 ms CreateObjectMapping: 0.209400 ms MarkObjects: 3.886700 ms  DeleteObjects: 0.032200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
