@@ -15,12 +15,12 @@ C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53887
+54288
 Successfully changed project path to: C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame
 C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 858.69 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 9.80 ms.
+Refreshing native plugins compatible for Editor in 218.03 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 3.88 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame/Assets
@@ -36,21 +36,854 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.323648 seconds.
+Registered in 0.009300 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.89 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 135.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.733 seconds
+- Completed reload, in  8.263 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.444422 seconds.
+Registered in 0.033458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 161.29 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kendr\OneDrive\Desktop\SpecialTopicsHws\VR-BowlingGame\UnityVRBowlingFolder\BowlingGameU\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kendr\OneDrive\Desktop\SpecialTopicsHws\VR-BowlingGame\UnityVRBowlingFolder\BowlingGameU\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/kendr/OneDrive/Desktop/SpecialTopicsHws/VR-BowlingGame/UnityVRBowlingFolder/BowlingGameU/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.035 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.3 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3542.
+Total: 9.497700 ms (FindLiveObjects: 0.874000 ms CreateObjectMapping: 0.446300 ms MarkObjects: 7.986000 ms  DeleteObjects: 0.186500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsBlue.mat
+  artifactKey: Guid(289b4a5ed25ff6a4e9e3bb1dd06bf910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsBlue.mat using Guid(289b4a5ed25ff6a4e9e3bb1dd06bf910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950a7ff2bddd78c10e936eafbdc22046') in 0.726779 seconds
+  Import took 0.744154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001192 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/HolderTexture.mat
+  artifactKey: Guid(889657bf025a7894f8d3efcb49fa3f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/HolderTexture.mat using Guid(889657bf025a7894f8d3efcb49fa3f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef05a1c1d2dbc412f2fd5c634f6923e') in 0.056661 seconds
+  Import took 0.083909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/Floor.mat
+  artifactKey: Guid(023dfa9b58d0f3847872e0356011b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/Floor.mat using Guid(023dfa9b58d0f3847872e0356011b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32b5f6bb4177e437d46573eca403ef0') in 0.044287 seconds
+  Import took 0.065748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardOranges.prefab
+  artifactKey: Guid(79a55f4e03d515e478b96787edb57d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardOranges.prefab using Guid(79a55f4e03d515e478b96787edb57d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486041de84a8a142e0f0da156011e886') in 0.147029 seconds
+  Import took 0.166074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRacerScreen.prefab
+  artifactKey: Guid(d52a8ababda6aa545aafc99d8c0da0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRacerScreen.prefab using Guid(d52a8ababda6aa545aafc99d8c0da0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4947c35f897a1c91ca048009fff1b08a') in 0.090024 seconds
+  Import took 0.107486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/DriverFBX.fbx
+  artifactKey: Guid(69da9bc5d817e7c4485f2044a2ed76ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/DriverFBX.fbx using Guid(69da9bc5d817e7c4485f2044a2ed76ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbbd1084ea78ff9c0bbd07b4d189efd') in 1.136766 seconds
+  Import took 1.151142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ChairTallTexture.mat
+  artifactKey: Guid(ef0c357403603a5428d974a4455523c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ChairTallTexture.mat using Guid(ef0c357403603a5428d974a4455523c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3c6eda55ebae02e7888be7d98481e2') in 0.057635 seconds
+  Import took 0.076858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/ControlButtonFbx.fbx
+  artifactKey: Guid(298ade45e6e48b04584796f1e57b624c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/ControlButtonFbx.fbx using Guid(298ade45e6e48b04584796f1e57b624c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9101ef7259b14f94512f8e77361866f3') in 0.068735 seconds
+  Import took 0.085988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRacer.mat
+  artifactKey: Guid(adae21d64c11b5344b8618764876b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRacer.mat using Guid(adae21d64c11b5344b8618764876b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b5a3ae3ee5dc84c2e574bb039a632d') in 0.051723 seconds
+  Import took 0.069726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRageRacerScreen.prefab
+  artifactKey: Guid(0307a89bae6aed74fbe762ef15e328d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRageRacerScreen.prefab using Guid(0307a89bae6aed74fbe762ef15e328d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82ba9c36f69bbeacd77c4a7bb93c03a') in 0.095387 seconds
+  Import took 0.112583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunMaterial.mat
+  artifactKey: Guid(8e8bc704bb863c14d90a1167996225c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunMaterial.mat using Guid(8e8bc704bb863c14d90a1167996225c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85c7216b4fe142a8c7656c9034aa34a') in 0.051432 seconds
+  Import took 0.074696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/GunCadeFBX.fbx
+  artifactKey: Guid(0a41d533a35053842818d5f68aa57313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/GunCadeFBX.fbx using Guid(0a41d533a35053842818d5f68aa57313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7824a9792825744b3bb5737c2cb64df') in 0.068115 seconds
+  Import took 0.087687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsYellow.mat
+  artifactKey: Guid(6693b5d13ca308a43841c58e43dfb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsYellow.mat using Guid(6693b5d13ca308a43841c58e43dfb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ab9195dd9e6d95adb66644990e5991') in 0.052487 seconds
+  Import took 0.069978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/Holder.prefab
+  artifactKey: Guid(2a890cdd2c88d4245914a285131d367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/Holder.prefab using Guid(2a890cdd2c88d4245914a285131d367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c2a8035b170c576093200de10de693') in 0.043141 seconds
+  Import took 0.061065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/AurynSky/Arcades Pack 02
+  artifactKey: Guid(c933612eef6c9fd4f863134239d70561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02 using Guid(c933612eef6c9fd4f863134239d70561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9484d68d7b4f170d24468366aac5192a') in 0.024467 seconds
+  Import took 0.040068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZap.mat
+  artifactKey: Guid(5384ce275e950c147b6939848e81c4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZap.mat using Guid(5384ce275e950c147b6939848e81c4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca3f6cd098b15f68ac051744afcfd7b') in 0.048410 seconds
+  Import took 0.061906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/HolderFBX.fbx
+  artifactKey: Guid(6445a991f4b441c4e9b8741eae265998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/HolderFBX.fbx using Guid(6445a991f4b441c4e9b8741eae265998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb7b66d15a8a82bf5c2ead70168e91a') in 0.054326 seconds
+  Import took 0.071607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/Gun.prefab
+  artifactKey: Guid(508c52462d594724b8a89042296b8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/Gun.prefab using Guid(508c52462d594724b8a89042296b8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d9aad8b26cd56c4bcc0a865137592') in 0.053879 seconds
+  Import took 0.069692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsBlack.mat
+  artifactKey: Guid(fa144a4b30363bc439c0acfaa8eac96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsBlack.mat using Guid(fa144a4b30363bc439c0acfaa8eac96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a786bec015675b0f843b74f54c142e1a') in 0.048044 seconds
+  Import took 0.071205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsGreen.mat
+  artifactKey: Guid(b2ea0f5c839d0e7418c351fc64b4b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsGreen.mat using Guid(b2ea0f5c839d0e7418c351fc64b4b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f27e5d09295ef79ffcfcf7a4a38d6') in 0.061484 seconds
+  Import took 0.082911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/ControlStickBasefbx.fbx
+  artifactKey: Guid(17aa2d052d808a2419ee3d98a71c602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/ControlStickBasefbx.fbx using Guid(17aa2d052d808a2419ee3d98a71c602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e529db34c076330f9ac7fe9f9f114b1') in 0.057103 seconds
+  Import took 0.078275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOranges.mat
+  artifactKey: Guid(aea2d90fa8d929248be53cc236949e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOranges.mat using Guid(aea2d90fa8d929248be53cc236949e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f1b3661e80e80cb7bc7f3e313a468') in 0.029360 seconds
+  Import took 0.048605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/CarWheel.fbx
+  artifactKey: Guid(f30ab6860bd683445affd27ff4818339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/CarWheel.fbx using Guid(f30ab6860bd683445affd27ff4818339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd15f4742a7425dc60387b91c58cb22') in 0.077631 seconds
+  Import took 0.102340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/ChairTallfbx.fbx
+  artifactKey: Guid(fc22b81c87683384984bb4509c73cd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/ChairTallfbx.fbx using Guid(fc22b81c87683384984bb4509c73cd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115daa08398e8c997f6974020cb92704') in 0.068847 seconds
+  Import took 0.089467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/ControlStickfbx.fbx
+  artifactKey: Guid(b424e0ffb707f8f4eaa70388751ddded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/ControlStickfbx.fbx using Guid(b424e0ffb707f8f4eaa70388751ddded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1e1470b88cf371024cbc643f338101') in 0.067038 seconds
+  Import took 0.086697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/WideStandardFBX.fbx
+  artifactKey: Guid(ab10bd1cd71d042468b3e1970e28876f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/WideStandardFBX.fbx using Guid(ab10bd1cd71d042468b3e1970e28876f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a92c0f8eeae136df3a04dcfd0bd424e') in 0.063090 seconds
+  Import took 0.079680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHoleScreen.mat
+  artifactKey: Guid(8a166bba705701345a28fb85065694bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHoleScreen.mat using Guid(8a166bba705701345a28fb85065694bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f5fe36887b8c1122a15ec7912feee7') in 0.052744 seconds
+  Import took 0.072615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardOrangesScreen.prefab
+  artifactKey: Guid(3ab11991366774c4c968caf5f2af84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardOrangesScreen.prefab using Guid(3ab11991366774c4c968caf5f2af84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0cae52b9e9b3fe5ce8cc00e448fce') in 0.074539 seconds
+  Import took 0.090331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeZap.prefab
+  artifactKey: Guid(f9a8c12775b77d840b43075674becc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeZap.prefab using Guid(f9a8c12775b77d840b43075674becc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736761b69c8eb5a5b8fed76a663eed6a') in 0.061708 seconds
+  Import took 0.076991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRacer.prefab
+  artifactKey: Guid(245a81bff6356504ea5e4f0dc310a8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRacer.prefab using Guid(245a81bff6356504ea5e4f0dc310a8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2294714a33bb8423de898c2c7aeb1e') in 0.057528 seconds
+  Import took 0.075398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBW.mat
+  artifactKey: Guid(241d604032323384288cf47cff92738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBW.mat using Guid(241d604032323384288cf47cff92738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5abdbbef097896c8d4201cf9640dac7') in 0.045784 seconds
+  Import took 0.062772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsRed.mat
+  artifactKey: Guid(ad2df3f4745bfa04e9cf7a90c37d257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsRed.mat using Guid(ad2df3f4745bfa04e9cf7a90c37d257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02e0e20667737cf5738d8089acba550') in 0.051251 seconds
+  Import took 0.074237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/ControlButton.prefab
+  artifactKey: Guid(254a47017e5cf734aa1546bfdfc0cfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/ControlButton.prefab using Guid(254a47017e5cf734aa1546bfdfc0cfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898c7e007976c0216d88dea8a92f77b6') in 0.058805 seconds
+  Import took 0.079928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHole.mat
+  artifactKey: Guid(a61c0f5072fc64b449df01d42977932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHole.mat using Guid(a61c0f5072fc64b449df01d42977932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4d3feb9359c0818605a82300368c11') in 0.046514 seconds
+  Import took 0.065858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsPurple.mat
+  artifactKey: Guid(1f7be40b88d5f444b9405ba2f548f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsPurple.mat using Guid(1f7be40b88d5f444b9405ba2f548f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e195ec1fbfb63139b16e8cc11b1e775d') in 0.052571 seconds
+  Import took 0.077752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials
+  artifactKey: Guid(0035ddf848dff494eae384302bdaf4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials using Guid(0035ddf848dff494eae384302bdaf4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b4ba3069b945d6f9b1c30166095239') in 0.028724 seconds
+  Import took 0.046321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/CarWheelRed.mat
+  artifactKey: Guid(6e9316dbc1c208f408198273b90ad6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/CarWheelRed.mat using Guid(6e9316dbc1c208f408198273b90ad6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537094cda1212868be51f1695a5ef3e2') in 0.046627 seconds
+  Import took 0.072631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a1709d49ca7a1a47fadf748ea49e04') in 0.035114 seconds
+  Import took 0.055784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/ChairTall.prefab
+  artifactKey: Guid(ef243992c74b3be498852a3eb81dffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/ChairTall.prefab using Guid(ef243992c74b3be498852a3eb81dffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4147c41d09fb5a52f492d4cb6be3d0a') in 0.053644 seconds
+  Import took 0.070023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacerScreen.mat
+  artifactKey: Guid(949088aff803b25428ea67d495e047d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacerScreen.mat using Guid(949088aff803b25428ea67d495e047d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b211f52d20b8a5e1c81455d70b3339') in 0.031072 seconds
+  Import took 0.052420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeZapScreen.prefab
+  artifactKey: Guid(d9448e7c35130414697409f7f0f0e486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeZapScreen.prefab using Guid(d9448e7c35130414697409f7f0f0e486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e05ebc2072975f8be37fc25e772b527') in 0.064032 seconds
+  Import took 0.081488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardCornHoleScreen.prefab
+  artifactKey: Guid(4b7aa0f46b7242346954f92c19764358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardCornHoleScreen.prefab using Guid(4b7aa0f46b7242346954f92c19764358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1cc798224c69ac5e99b9b37534007a') in 0.060350 seconds
+  Import took 0.078590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsLightBlue.mat
+  artifactKey: Guid(e630c835030893641801dce0adf25be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsLightBlue.mat using Guid(e630c835030893641801dce0adf25be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1dc4b731e1cf0d294f737b71a6c25d') in 0.062005 seconds
+  Import took 0.082190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/ControlButtonHolder.prefab
+  artifactKey: Guid(5fa3998b14e6be243bd965a0c52d4c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/ControlButtonHolder.prefab using Guid(5fa3998b14e6be243bd965a0c52d4c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2953fc130497edf2620ebe602adb6c13') in 0.049442 seconds
+  Import took 0.063964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZapScreen.mat
+  artifactKey: Guid(671c070057a8ab44fa77356d8fa0774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZapScreen.mat using Guid(671c070057a8ab44fa77356d8fa0774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5a480a0601e84264af5a24c2e69163') in 0.027669 seconds
+  Import took 0.044503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacer.mat
+  artifactKey: Guid(cf2ea254c0c19494abeb9f3b5a9aace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacer.mat using Guid(cf2ea254c0c19494abeb9f3b5a9aace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6a777d1bfca5d830aafdaee21852ed') in 0.045003 seconds
+  Import took 0.067457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRacerScreen.mat
+  artifactKey: Guid(53de01d95e1c68747a52bceab19e88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRacerScreen.mat using Guid(53de01d95e1c68747a52bceab19e88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9d9e0d4de3b4b321229ecfcdaf849c') in 0.030607 seconds
+  Import took 0.052977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBWScreen.mat
+  artifactKey: Guid(9ec292edd7b39eb4ba89749a169e07f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBWScreen.mat using Guid(9ec292edd7b39eb4ba89749a169e07f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ab09bdc869be68b0cb8f5c3fd14e37') in 0.050036 seconds
+  Import took 0.085100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/GunFBX.fbx
+  artifactKey: Guid(cbe918e944f1620459848b57910eef1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/GunFBX.fbx using Guid(cbe918e944f1620459848b57910eef1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf06a30d3fb7df4251e794343918343') in 0.072300 seconds
+  Import took 0.092560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001712 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOrangesScreen.mat
+  artifactKey: Guid(21a3367cdc9222a459b41eba0c098045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOrangesScreen.mat using Guid(21a3367cdc9222a459b41eba0c098045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaf8ac21d24778ca9333ddef49bdfa5') in 0.035327 seconds
+  Import took 0.062024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/CarWheel.prefab
+  artifactKey: Guid(6b52e1bc4b4bad54f94f35ac2aa28093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/CarWheel.prefab using Guid(6b52e1bc4b4bad54f94f35ac2aa28093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c9687dc8e33b379bc9a014450aacf7') in 0.055217 seconds
+  Import took 0.078456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRageRacer.prefab
+  artifactKey: Guid(452b7b1d5580ba4478bff784e1fe016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/DriverRageRacer.prefab using Guid(452b7b1d5580ba4478bff784e1fe016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53f81b335566ed322096a738d6d78f7') in 0.072484 seconds
+  Import took 0.091174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(d9e88bdd0f5f0462ebf470d8ea4b285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(d9e88bdd0f5f0462ebf470d8ea4b285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691868cef9223e0b046c4f8e0ee7292a') in 0.030668 seconds
+  Import took 0.051858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeBlackWidow Screen.prefab
+  artifactKey: Guid(31c8470153fe64241927d696b19572d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeBlackWidow Screen.prefab using Guid(31c8470153fe64241927d696b19572d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f257ce196da8f917a2a24616446ba2c0') in 0.065201 seconds
+  Import took 0.081512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeBlackWidow.prefab
+  artifactKey: Guid(4ca09fe9e0ceb4945b21cc50794b5c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/GunCadeBlackWidow.prefab using Guid(4ca09fe9e0ceb4945b21cc50794b5c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380ed7a84f9d822481830fbc6f9da473') in 0.058743 seconds
+  Import took 0.073382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsOrange.mat
+  artifactKey: Guid(fec955c9745a4c64198eac4a963245da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsOrange.mat using Guid(fec955c9745a4c64198eac4a963245da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37b3dbfe4c059fb10eccacfebd4923f') in 0.043920 seconds
+  Import took 0.062398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Models/ControlButtonHolder.fbx
+  artifactKey: Guid(442e86a95f4af6041898c236273b1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Models/ControlButtonHolder.fbx using Guid(442e86a95f4af6041898c236273b1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af612910fea8ddc759a13fd8cd7a3f1b') in 0.052851 seconds
+  Import took 0.066746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardCornHole.prefab
+  artifactKey: Guid(46f58e02eb0a62f499b3148d4f87a125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Prefabs/WideStandardCornHole.prefab using Guid(46f58e02eb0a62f499b3148d4f87a125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd603e7bb96a4abc1659f72ea2bd2702') in 0.057621 seconds
+  Import took 0.074803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/CarWheelPurple.mat
+  artifactKey: Guid(46f4656ac61ceba44b86f55491982f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/CarWheelPurple.mat using Guid(46f4656ac61ceba44b86f55491982f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f80aecc96447b3c44ba065d400341c') in 0.044674 seconds
+  Import took 0.059547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30499.914718 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsPurple.png
+  artifactKey: Guid(2d1c63c056c77d94da81f89302ffb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsPurple.png using Guid(2d1c63c056c77d94da81f89302ffb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b72fd8a288b4ea13721a908871cc7a') in 0.046724 seconds
+  Import took 0.057864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/GunCadeZapScreen.png
+  artifactKey: Guid(2d41af075d6c02f47bfe78faccbd50fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/GunCadeZapScreen.png using Guid(2d41af075d6c02f47bfe78faccbd50fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a57e85d85f6f2fb63d9d5794cba5fc') in 0.042552 seconds
+  Import took 0.054737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/WideStandardCornHole.png
+  artifactKey: Guid(ba5c4499df6667b48b9bda242973384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/WideStandardCornHole.png using Guid(ba5c4499df6667b48b9bda242973384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374bf047d7c863803cd1f91530fbf2bd') in 0.025479 seconds
+  Import took 0.037293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/DriverTexture.png
+  artifactKey: Guid(0c7694e1dee6d4d47adb88e15a901b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/DriverTexture.png using Guid(0c7694e1dee6d4d47adb88e15a901b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f831a3983bae128bd74ba666dae4e12') in 0.024785 seconds
+  Import took 0.036430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsYellow.png
+  artifactKey: Guid(ce6644152ebbba848b3afaa541e71dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsYellow.png using Guid(ce6644152ebbba848b3afaa541e71dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183bb0d29535e63ed71636a39e6c1920') in 0.027327 seconds
+  Import took 0.035651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/WideStandardOrangesScreen.png
+  artifactKey: Guid(6c01dc26a47ebcb4fb401813333fc7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/WideStandardOrangesScreen.png using Guid(6c01dc26a47ebcb4fb401813333fc7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a744daea88ecbc3e66e473d039336d5') in 0.028316 seconds
+  Import took 0.039140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/HolderTexture.png
+  artifactKey: Guid(0dbd3078db07d5949a29eab733763fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/HolderTexture.png using Guid(0dbd3078db07d5949a29eab733763fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5c5c518fc53d577f914a7b4bcde9ac') in 0.039207 seconds
+  Import took 0.048584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/GunCadeBWScreen.png
+  artifactKey: Guid(1ae3104e64ca7c94484a37d5577e0e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/GunCadeBWScreen.png using Guid(1ae3104e64ca7c94484a37d5577e0e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc720161ad6256fa60e25b266fac88') in 0.035673 seconds
+  Import took 0.045474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/GunCadeBW.png
+  artifactKey: Guid(00202eb405c3e9c4cb32df0a143ee240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/GunCadeBW.png using Guid(00202eb405c3e9c4cb32df0a143ee240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3b48741beeb31cda9507afefe1bfae') in 0.039653 seconds
+  Import took 0.050872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/DriverRageRacer.png
+  artifactKey: Guid(bd693f3b823f8e042a88f24e6a40ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/DriverRageRacer.png using Guid(bd693f3b823f8e042a88f24e6a40ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c078bfa8e9bcfac1c16f9f49ccbd3a') in 0.027741 seconds
+  Import took 0.040956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/GunCadeZap.png
+  artifactKey: Guid(ca6c27c0f34502d459f312fb7855d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/GunCadeZap.png using Guid(ca6c27c0f34502d459f312fb7855d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e1c46e69fe84a1b033ecedde4f1a4d') in 0.024387 seconds
+  Import took 0.035902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/DriverRageRacerScreen.png
+  artifactKey: Guid(3b6a6a54f88592244919f55acb95bf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/DriverRageRacerScreen.png using Guid(3b6a6a54f88592244919f55acb95bf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c0556976bcf28e2f326380514c6ffd') in 0.024374 seconds
+  Import took 0.035739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsRed.png
+  artifactKey: Guid(d42bb66dbf417884c825efd4eba82024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsRed.png using Guid(d42bb66dbf417884c825efd4eba82024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f20127afd20f029f38a7d05af01f1a') in 0.053491 seconds
+  Import took 0.074365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/DriverTextureRacerScreen.png
+  artifactKey: Guid(04aef31e27e820c41bdc93858221a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/DriverTextureRacerScreen.png using Guid(04aef31e27e820c41bdc93858221a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1a86b0093800e37d719a38377302ae') in 0.048032 seconds
+  Import took 0.061287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/WideStandardCornHoleScreen.png
+  artifactKey: Guid(16e26aaceb954954a816a25988f82644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/WideStandardCornHoleScreen.png using Guid(16e26aaceb954954a816a25988f82644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a61af5a50cce11997a01f9091d33f1') in 0.026477 seconds
+  Import took 0.037605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/WideStandardOranges.png
+  artifactKey: Guid(e4a7d98932fccf742a0a43bc2aeec1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/WideStandardOranges.png using Guid(e4a7d98932fccf742a0a43bc2aeec1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66f71c1716ff92dfd5c7da188596a08') in 0.021882 seconds
+  Import took 0.031589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.342710 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/CarWheelPurple.png
+  artifactKey: Guid(fdb90d65ed7fea948866c482fd7c19a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/CarWheelPurple.png using Guid(fdb90d65ed7fea948866c482fd7c19a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889dd496bb8e95f9b0ccd3168cbcbc76') in 0.024851 seconds
+  Import took 0.033880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsOrange.png
+  artifactKey: Guid(04698a37816cee34687180e8dd4c07fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsOrange.png using Guid(04698a37816cee34687180e8dd4c07fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce1f4fd901fabec3549119ec1360206') in 0.024748 seconds
+  Import took 0.035586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsBlue.png
+  artifactKey: Guid(b18f7827b9072c04a8763cf0900d50f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsBlue.png using Guid(b18f7827b9072c04a8763cf0900d50f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b477a4e2094dadf87e455e1dec7cf77c') in 0.031868 seconds
+  Import took 0.043386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ChairTallTexture.png
+  artifactKey: Guid(4b2081f70cec586449db2f1ae315f4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ChairTallTexture.png using Guid(4b2081f70cec586449db2f1ae315f4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac4a31fcf4ef525f107137ced271c90') in 0.026009 seconds
+  Import took 0.036456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsGreen.png
+  artifactKey: Guid(3b5d926eca48538498b42ebc45fdff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsGreen.png using Guid(3b5d926eca48538498b42ebc45fdff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7272034e6c7649d0d42d59eceefde79') in 0.028621 seconds
+  Import took 0.041616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsLightBlue.png
+  artifactKey: Guid(2f2c0ba230f5dcf4ea9162c0844ed4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsLightBlue.png using Guid(2f2c0ba230f5dcf4ea9162c0844ed4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26987eacb03e07aecb2db19c587fa335') in 0.026833 seconds
+  Import took 0.038682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/CarWheelRed.png
+  artifactKey: Guid(358c0d95912d64b47af5978d7908e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/CarWheelRed.png using Guid(358c0d95912d64b47af5978d7908e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf37f20380d718a4488c7de88d3da3c') in 0.040228 seconds
+  Import took 0.049532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Textures/ControlsBlack.png
+  artifactKey: Guid(23a9c777122246e49827c6a6daf07999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Textures/ControlsBlack.png using Guid(23a9c777122246e49827c6a6daf07999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a872c16268b08a33a28af5754525350') in 0.045526 seconds
+  Import took 0.058387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.774333 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsRed.mat
+  artifactKey: Guid(ad2df3f4745bfa04e9cf7a90c37d257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsRed.mat using Guid(ad2df3f4745bfa04e9cf7a90c37d257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef9424ba7acec640dacedf70d8818d8') in 0.052777 seconds
+  Import took 0.063650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/HolderTexture.mat
+  artifactKey: Guid(889657bf025a7894f8d3efcb49fa3f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/HolderTexture.mat using Guid(889657bf025a7894f8d3efcb49fa3f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0403f9ab35cf4457453941f1eb24f2ff') in 0.025806 seconds
+  Import took 0.034342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/Floor.mat
+  artifactKey: Guid(023dfa9b58d0f3847872e0356011b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/Floor.mat using Guid(023dfa9b58d0f3847872e0356011b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddec8a8e2c441296bc6cc9e28b45b6cc') in 0.024702 seconds
+  Import took 0.034037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRacer.mat
+  artifactKey: Guid(adae21d64c11b5344b8618764876b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRacer.mat using Guid(adae21d64c11b5344b8618764876b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc5e658f19d53f3d48a0de24b95313d') in 0.027086 seconds
+  Import took 0.037597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunMaterial.mat
+  artifactKey: Guid(8e8bc704bb863c14d90a1167996225c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunMaterial.mat using Guid(8e8bc704bb863c14d90a1167996225c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463ff4346dbfa9a68e5b585c7b29b53') in 0.025907 seconds
+  Import took 0.034625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/ControlsYellow.mat
+  artifactKey: Guid(6693b5d13ca308a43841c58e43dfb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/ControlsYellow.mat using Guid(6693b5d13ca308a43841c58e43dfb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec1b69bb6025eb5999c3213098f4a3') in 0.028961 seconds
+  Import took 0.039864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZap.mat
+  artifactKey: Guid(5384ce275e950c147b6939848e81c4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZap.mat using Guid(5384ce275e950c147b6939848e81c4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccfc835a377cc33fba0ccdb8910b0e0') in 0.025054 seconds
+  Import took 0.034095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOranges.mat
+  artifactKey: Guid(aea2d90fa8d929248be53cc236949e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOranges.mat using Guid(aea2d90fa8d929248be53cc236949e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6bb9eb461f5e0b5d2fd257aceb2d7b') in 0.029204 seconds
+  Import took 0.038920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHoleScreen.mat
+  artifactKey: Guid(8a166bba705701345a28fb85065694bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHoleScreen.mat using Guid(8a166bba705701345a28fb85065694bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf9482b4c2bea52df0ff39fe397ab2d') in 0.030654 seconds
+  Import took 0.041596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBW.mat
+  artifactKey: Guid(241d604032323384288cf47cff92738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBW.mat using Guid(241d604032323384288cf47cff92738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612f389b883fb4c91f44e6824d4c6bcb') in 0.030387 seconds
+  Import took 0.039637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHole.mat
+  artifactKey: Guid(a61c0f5072fc64b449df01d42977932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardCornHole.mat using Guid(a61c0f5072fc64b449df01d42977932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaa994ed356910bd79dd2f734728f3c') in 0.024792 seconds
+  Import took 0.034492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacerScreen.mat
+  artifactKey: Guid(949088aff803b25428ea67d495e047d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacerScreen.mat using Guid(949088aff803b25428ea67d495e047d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053ee63e9b00f81dc9b90b4be761d48d') in 0.023766 seconds
+  Import took 0.032892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZapScreen.mat
+  artifactKey: Guid(671c070057a8ab44fa77356d8fa0774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeZapScreen.mat using Guid(671c070057a8ab44fa77356d8fa0774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff769ef7031005838f2653d9dc04960') in 0.030837 seconds
+  Import took 0.043088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacer.mat
+  artifactKey: Guid(cf2ea254c0c19494abeb9f3b5a9aace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRageRacer.mat using Guid(cf2ea254c0c19494abeb9f3b5a9aace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ba5e081deba5228a4a782cfa8718bc') in 0.028545 seconds
+  Import took 0.038172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/DriverRacerScreen.mat
+  artifactKey: Guid(53de01d95e1c68747a52bceab19e88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/DriverRacerScreen.mat using Guid(53de01d95e1c68747a52bceab19e88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2546d83d0cb8457ad0c91027c48dc919') in 0.024035 seconds
+  Import took 0.032363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBWScreen.mat
+  artifactKey: Guid(9ec292edd7b39eb4ba89749a169e07f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/GunCadeBWScreen.mat using Guid(9ec292edd7b39eb4ba89749a169e07f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacec8668d86da13469dc33e8d61243f') in 0.023335 seconds
+  Import took 0.032201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOrangesScreen.mat
+  artifactKey: Guid(21a3367cdc9222a459b41eba0c098045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Arcades Pack 02/Materials/WideStandardOrangesScreen.mat using Guid(21a3367cdc9222a459b41eba0c098045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7f0bb8214086d0903ebd4f776b9608') in 0.026155 seconds
+  Import took 0.036135 seconds .
+
