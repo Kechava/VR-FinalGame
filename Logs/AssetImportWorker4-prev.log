@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.318; Version 2009; 64bit' Language: 'en' Physical Memory: 6091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61050
+Successfully changed project path to: C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame
+C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 153.46 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 2.69 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kendr/OneDrive/Desktop/GithubVRFinalGame/VR-FinalGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3045 MB
+    Driver:   27.20.11044.5003
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005462 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 135.68 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.643 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 148.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kendr\OneDrive\Desktop\SpecialTopicsHws\VR-BowlingGame\UnityVRBowlingFolder\BowlingGameU\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kendr\OneDrive\Desktop\SpecialTopicsHws\VR-BowlingGame\UnityVRBowlingFolder\BowlingGameU\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/kendr/OneDrive/Desktop/SpecialTopicsHws/VR-BowlingGame/UnityVRBowlingFolder/BowlingGameU/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.805 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3544.
+Total: 7.493500 ms (FindLiveObjects: 0.841200 ms CreateObjectMapping: 0.421800 ms MarkObjects: 6.031600 ms  DeleteObjects: 0.195300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Course Library/Scripts/Menu.cs
+  artifactKey: Guid(838dfd9a4cdaa584b926cc893609c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Scripts/Menu.cs using Guid(838dfd9a4cdaa584b926cc893609c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4649b92d06f958686eb56a93a4c54ee') in 0.078174 seconds
+  Import took 0.091973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.083820 seconds.
+  path: Assets/New TMP Color Gradient 1.asset
+  artifactKey: Guid(859e3d77ebef3a9489dc040d2f5f86f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New TMP Color Gradient 1.asset using Guid(859e3d77ebef3a9489dc040d2f5f86f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4101f8fda3335236b4fb386532f578b') in 0.060549 seconds
+  Import took 0.081492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.308545 seconds.
+  path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Create_with_VR_Starter_Scene.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5b8d79907448a6b652caf0dc34ee41') in 0.038883 seconds
+  Import took 0.068462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.677204 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(5c49fd73b78734145b2ce6a207e16ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(5c49fd73b78734145b2ce6a207e16ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58b1f95839b03fd5022b30c33d82b50') in 0.032515 seconds
+  Import took 0.054615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090361 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(8fccb80e6c9a84389a75f2c1ed4d786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(8fccb80e6c9a84389a75f2c1ed4d786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69860ab94e6818c3769acad48736f042') in 0.028193 seconds
+  Import took 0.046273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009919 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(2b485d7676a7d4b3eba3a764bd60d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(2b485d7676a7d4b3eba3a764bd60d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f7ef8400926668ed5989e339eac3ae') in 0.061995 seconds
+  Import took 0.083399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(4ebed251fef9e43bda281b963aa75cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(4ebed251fef9e43bda281b963aa75cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c83084605f5f76757eef89274c4cbe') in 0.036886 seconds
+  Import took 0.061534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.559013 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(1b4063adf124943e38c40263cd745f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(1b4063adf124943e38c40263cd745f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b556c62517c014bc3e776a0bb85532') in 0.026583 seconds
+  Import took 0.045272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/XR/Loaders/Open XR Loader No Pre Init.asset
+  artifactKey: Guid(4e5dfc6f941d64790bc0fcd162c4ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Open XR Loader No Pre Init.asset using Guid(4e5dfc6f941d64790bc0fcd162c4ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [XR] Error loading subsystem: Display (1) (header mismatch?)
+ -> (artifact id: 'e3dfd6c2bfb5faa58b90efb8d918dcb4') in 0.042239 seconds
+  Import took 0.055923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/XR/Loaders/Open XR Loader.asset
+  artifactKey: Guid(43df3a0edee5e4ae7a666925d25911ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(43df3a0edee5e4ae7a666925d25911ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725b4c5f0a07ecc822c6965686554102') in 0.026055 seconds
+  Import took 0.041369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.115820 seconds.
+  path: Assets/_Course Library/Models/Lever_1.fbx
+  artifactKey: Guid(dfd4d258abd5f534a8fa081e381d9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Lever_1.fbx using Guid(dfd4d258abd5f534a8fa081e381d9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32e3c982676c0493b883c1132a69eba') in 0.824005 seconds
+  Import took 0.838914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Challenges/03_Training/Materials/Blue.mat
+  artifactKey: Guid(f6456bf8d27bb1248a1fd0cb2164aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/03_Training/Materials/Blue.mat using Guid(f6456bf8d27bb1248a1fd0cb2164aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51663230b06bfdf8d32abe6fccacb71') in 0.079468 seconds
+  Import took 0.095541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/_Course Library/Models/Slider_1.fbx
+  artifactKey: Guid(2e68c8d1a02debb4d8c26e384e21498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Slider_1.fbx using Guid(2e68c8d1a02debb4d8c26e384e21498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0386c643803acd32b033cfdfca7e4631') in 0.132187 seconds
+  Import took 0.146231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/_Course Library/Models/Slider_2.FBX
+  artifactKey: Guid(dcbacd2e11ea73b4ea57e56fed4ae4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Slider_2.FBX using Guid(dcbacd2e11ea73b4ea57e56fed4ae4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28610918e91f024c6141f3dc8472636') in 0.141108 seconds
+  Import took 0.157539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/_Course Library/Models/Plant_Snake.fbx
+  artifactKey: Guid(fe0f3b6d90cb7de4c8d4741bf31c5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Plant_Snake.fbx using Guid(fe0f3b6d90cb7de4c8d4741bf31c5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a5c8c0b1f4871c16e535236ee29e64') in 0.091514 seconds
+  Import took 0.107262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001077 seconds.
+  path: Assets/_Course Library/Models/Plant_Pot_Round.fbx
+  artifactKey: Guid(3f653719e6a05cc4d920120a8ec8f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Plant_Pot_Round.fbx using Guid(3f653719e6a05cc4d920120a8ec8f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a72ca588744fd79c8f9e41b6dcebec6') in 0.100458 seconds
+  Import took 0.118944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Challenges/03_Training/Materials/BlueLight.mat
+  artifactKey: Guid(c56e045e4ea4b4c03a84074b146d28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/03_Training/Materials/BlueLight.mat using Guid(c56e045e4ea4b4c03a84074b146d28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dee8322109c2fd1756554e8f13bab5') in 0.066346 seconds
+  Import took 0.082597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Materials/Ball.mat
+  artifactKey: Guid(fb5add3c4763c4bbaabc2af4aebe8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Materials/Ball.mat using Guid(fb5add3c4763c4bbaabc2af4aebe8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82100aa5fc67c422d0097910f824d905') in 0.213653 seconds
+  Import took 0.230482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Challenges/02_3DPainting/Materials/Blue.mat
+  artifactKey: Guid(883b51d7f702a457e914d827f896d06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Materials/Blue.mat using Guid(883b51d7f702a457e914d827f896d06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf36b41db5244d679bb8cb7fbea67337') in 0.058467 seconds
+  Import took 0.073239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.958857 seconds.
+  path: Assets/Scenes/MENU.unity
+  artifactKey: Guid(fdcc4e77e36d41d4fa8715eb72af7a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MENU.unity using Guid(fdcc4e77e36d41d4fa8715eb72af7a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c617cf14b28c2eceaa8044efec7b5c6b') in 0.034063 seconds
+  Import took 0.050085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.428553 seconds.
+  path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Create_with_VR_Starter_Scene.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7a2a4466573a67965c58d1dc9a496f') in 0.014779 seconds
+  Import took 0.035095 seconds .
+
