@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class PlayerController1 : MonoBehaviour
 {
-    public Rigidbody RB;
-    public float moveSpeed = 10f;
+    public Rigidbody r;
+    public float Speed = 20f;
 
     private float xInput;
     private float zInput;
     // Start is called before the first frame update
     void Awake()
     {
-        RB = GetComponent<Rigidbody>();
+        r = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        ProcessInputs();
     }
     private void FixedUpdate()
     {
-        
+        Move();
     }
     private void ProcessInputs()
     {
@@ -31,6 +31,6 @@ public class PlayerController1 : MonoBehaviour
     }
     private void Move()
     {
-        RB.AddForce(new Vector3(xInput, 0f, zInput)* moveSpeed);
+        r.AddForce(new Vector3(xInput, 0f, zInput)* Speed);
     }
 }
